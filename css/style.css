@@ -1,0 +1,571 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    ;
+
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+section {
+    margin-bottom: 60px;
+    padding: 50px 0;
+}
+
+/*Common Css ends*/
+/*Navigation Starts*/
+
+.logo {
+    height: 60px;
+}
+
+.navbar a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+section.navigation_part {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+/*Navigation Ends*/
+/*Banner starts*/
+.banner_part {
+    background: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(../images/header%20banner.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.banner_part .banner_text {
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner_part .banner_text h1 {
+    color: #fff;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.banner_part .banner_text p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 20px;
+    margin: 0;
+}
+
+.banner_part .banner_text .text-decor {
+    color: #97c147
+}
+
+.banner_part .banner_text a,
+.video_part a,
+.pricing a,
+.plan a.plan_button,
+.stamp_part .button a {
+    color: #fff;
+    background: #97c147;
+    display: inline-block;
+    font-size: 14px;
+    padding: 15px 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+/*Banner part ends*/
+/*Video part starts*/
+.video_part {
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../images/video_background.jpg) no-repeat center;
+    ;
+    background-size: cover;
+}
+
+.video_part .video_text {
+    text-align: left;
+}
+
+.video_part .video_text h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 6%;
+}
+
+.video_part .video_text_modify {
+    font-weight: 400;
+}
+
+
+
+/*Video part ends*/
+/*how it works start*/
+.easy-step {
+    background: linear-gradient(rgba(151, 192, 70, 0.9), rgba(151, 192, 70, 0.9)), url(../images/web%20background.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.easy-step h3 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.easy-step h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.easy-step h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.easy-step p {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 400 !important;
+    color: #fff;
+}
+
+.easy-step .bg {
+    padding-top: 30px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    -ms-transition: 0.4s;
+}
+
+.easy-step i {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #97c046;
+    background: #fff;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+/*how it works ends*/
+/*Pricing Start*/
+section.pricing {
+    background: linear-gradient(rgba(229, 229, 229, 0.9), rgba(255, 255, 255, 0.9)), url(../images/woman-holding-gold-iphone-6-2433162.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.pricing ul,
+ol {
+    list-style: none;
+}
+
+.pricing h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #444444;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.pricing h4 b.dynamic_one {
+    font-weight: 700;
+    font-size: 22px;
+    display: inline-block;
+}
+
+.pricing p {
+    margin: 0;
+}
+
+.pricing p b.dynamic_one {
+    font-weight: 700;
+    font-size: 22px;
+    display: inline-block;
+}
+
+.pricing .for-margin {
+    margin-bottom: 15px !important;
+}
+
+.pricing .image {
+    margin-top: 12px;
+}
+
+.pricing p.italic-text {
+    font-style: italic;
+    line-height: 1.2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+
+}
+
+.pricing p.bottom-text {
+    line-height: ;
+    font-size: 16px;
+    color: #444444;
+}
+
+.pricing span.for_right {
+    float: right;
+    margin-right: 100px;
+    ;
+}
+
+.pricing ul li {
+    margin-bottom: 5px;
+    padding: 2.5px 0;
+    color: #444444;
+    font-weight: 600;
+
+}
+
+.pricing ul li b.dynamic_one {
+    color: #ef8c38;
+    font-size: 18px;
+}
+
+/*pricing ends*/
+/*plan starts*/
+.plan {
+    background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url(../images/plan%20background.jpg) no-repeat bottom;
+    background-size: cover;
+}
+
+.plan table {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.plan table::after,
+.plan table::after {
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    content: "";
+    top: -3px;
+    left: 0;
+}
+
+.plan .dollar {
+    font-weight: 700;
+    font-size: 25px
+}
+
+.plan .tick {
+    color: #97c147;
+}
+
+.plan .cross {
+    font-size: 14px;
+}
+
+.plan h2 {
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.plan .mar_top {
+    margin-top: 30px;
+}
+
+.plan h4 {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.plan .email {
+    color: #222;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+article {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.plan ul,
+.lower_table ul {
+    display: flex;
+    top: 0px;
+    z-index: 10;
+    padding-bottom: 14px;
+}
+
+.plan li,
+.lower_table li {
+    list-style: none;
+    flex: 1;
+}
+
+.plan li:last-child,
+.lower_table li:last-child {
+    border-right: 1px solid #DDD;
+}
+
+.plan button,
+.lower_table button {
+    width: 100%;
+    border: 1px solid #DDD;
+    border-right: 0;
+    border-top: 0;
+    padding: 10px;
+    background: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+    height: 60px;
+    color: #999
+}
+
+.plan li.active button,
+.lower_table li.active button {
+    background: #F5F5F5;
+    color: #000;
+    outline: 0;
+    border: 0;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+
+th {
+    background: #F5F5F5;
+    display: none;
+}
+
+td,
+th {
+    height: 53px
+}
+
+td,
+th {
+    border: 1px solid #DDD;
+    padding: 10px;
+    empty-cells: show;
+}
+
+td,
+th {
+    text-align: left;
+}
+
+td + td,
+th + th {
+    text-align: center;
+    display: none;
+}
+
+td.default {
+    display: table-cell;
+}
+
+.bg-purple {
+    border-top: 3px solid #97c046;
+}
+
+.bg-blue {
+    border-top: 3px solid #97c046;
+}
+
+.sep {
+    background: #F5F5F5;
+    font-weight: bold;
+}
+
+.txt-l {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.txt-top {
+    position: relative;
+    top: -9px;
+    left: -2px;
+}
+
+.tick {
+    font-size: 18px;
+    color: #97c046;
+}
+
+.hide {
+    border: 0;
+    background: none;
+}
+
+.plan td,
+th,
+.lower_table td,
+th {
+    padding: 10px;
+    height: 30px;
+    font-size: 17px;
+}
+
+/*PLAN ENDS*/
+/*STAMP STARTS*/
+.stamp_part {
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../images/background%20of%20stamp.jpg) no-repeat center;
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+.for_margin {
+    margin-bottom: 60px;
+    margin-top: 30px
+}
+
+.stamp_section img {
+    width: 390px;
+}
+
+.stamp_section h4 {
+    font-size: 40px;
+    color: #444;
+    margin-bottom: 25px;
+}
+
+.stamp_section h4 b {
+    font-size: 50px;
+}
+
+.stamp_section h4 span {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+
+.stamp_section .stamp {
+    width: 350px;
+    height: 350px;
+    background: #fff;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+    color: #fff;
+    -webkit-box-shadow: 0px 0px 43px 1px rgba(0, 0, 0, 0.30);
+    -moz-box-shadow: 0px 0px 43px 1px rgba(0, 0, 0, 0.30);
+    box-shadow: 0px 0px 43px 1px rgba(0, 0, 0, 0.30);
+    margin-top: 50px;
+}
+
+.stamp_section .stamp p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #808080;
+}
+
+.package_instruction {
+    position: relative;
+    top: 45%;
+    left: 0;
+    transform: translate(0, -50%);
+}
+
+.package_instruction h4 {
+    font-size: 40px;
+}
+
+.package_instruction h4 span {
+    font-weight: 700;
+}
+
+.pricing_table {
+    position: relative;
+}
+
+.pricing_table:after {
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: 100%;
+    top: -5px;
+    left: 0;
+    background: #97c046;
+}
+
+.pricing_table th {
+    background: #f5f5f5;
+}
+
+.pricing_table th .lil {
+    font-weight: 300;
+}
+
+.pricing_table th .mega {
+    font-size: 20px;
+}
+
+.pricing_table th,
+td {
+    padding: 10px 10px;
+    border: 1px solid #dddddd;
+}
+
+.tick {
+    color: #97c046;
+}
+
+.cross {
+    color: red;
+    font-size: 20px;
+}
+
+h4.for_mail {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    color: #222;
+    margin: 0;
+}
+
+h4.for_mail a {
+    color: #2a2a2a;
+}
+
+h4.for_mail a:hover {
+    text-decoration: none;
+}
+
+.cross {
+    color: red;
+}
+
+/*STAMP ENDS*/

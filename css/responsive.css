@@ -1,0 +1,256 @@
+@media (max-width: 1199px) and (min-width: 992px) {
+
+    .plan td,
+    th {
+        padding: 6.5px;
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .video_part .video_text h2 {
+        padding-top: 10%;
+        font-size: 40px;
+    }
+
+
+    .pricing ul li {
+        line-height: 1;
+
+    }
+
+    .easy-step h3 {
+        font-size: 19px;
+    }
+
+    .banner_part .banner_text h1 {
+        font-size: 45px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .second_part_image {
+        margin-top: 30px;
+    }
+
+    .banner_part .banner_text h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .video_part .video_text h2 {
+        margin-top: -30px;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .plan h4 {
+        margin-bottom: 30px;
+    }
+
+
+    .easy-step h2 {
+        font-size: 39px;
+    }
+
+    .button a {
+        margin-top: 40px;
+    }
+
+    .package_instruction h4 {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .stamp_section h4 b {
+        font-size: 50px;
+    }
+
+    .stamp_section h4 span {
+        font-size: 35px;
+    }
+
+    .plan h4 {
+        margin-bottom: 30px;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: 0;
+        outline: 0;
+    }
+
+    .navbar-light .navbar-toggler i {
+        font-size: 24px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+        display: block;
+        padding: 0;
+    }
+
+    .banner_part .banner_text h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .video_part .video_text h2 {
+        font-size: 35px;
+        margin-top: -25px;
+    }
+
+    .second_part_image {
+        margin-top: 30px;
+    }
+
+    .pricing span.for_right {
+        margin-right: 0;
+    }
+
+    .package_instruction h4 {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+    section {
+        margin-bottom: 30px;
+        padding: 20px 0;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: 0;
+        outline: 0;
+    }
+
+    .navbar-light .navbar-toggler i {
+        font-size: 24px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+        display: block;
+        padding: 0;
+    }
+
+    .banner_part .banner_text {
+        width: 100%;
+    }
+
+    .banner_part .banner_text h1 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .video_part .video_text h2 {
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: 20px !important;
+        padding: 15px 40px;
+    }
+
+    .stamp_section h4 {
+        font-size: 27px;
+    }
+
+    .stamp_section h4 b {
+        font-size: 40px;
+    }
+
+    .stamp_section h4 span {
+        font-size: 30px;
+    }
+
+    .banner_part .banner_text p {
+        font-size: 14px;
+    }
+
+    .banner_part .banner_text a,
+    .video_part a,
+    .pricing a,
+    .plan a.plan_button,
+    .stamp_part .button a {
+        padding: 10px 25px;
+    }
+
+    .table {
+        margin-bottom: 30px;
+    }
+
+    .plan td,
+    th,
+    .lower_table td,
+    th {
+        font-size: 15px;
+    }
+
+    .second_part_image {
+        margin-top: 30px;
+    }
+
+    .easy-step h2 {
+        font-size: 30px;
+    }
+
+    .easy-step p {
+        margin-bottom: 0;
+    }
+
+    .pricing ul li b.dynamic_one {
+        font-size: 13px;
+    }
+
+    .pricing ul li {
+        margin-bottom: 0;
+    }
+
+    .pricing h4 b.dynamic_one {
+        font-size: 16px;
+    }
+
+    .pricing span.for_right {
+        margin-right: 0;
+    }
+
+    .plan h4 {
+        margin-bottom: 30px;
+    }
+
+    .plan h2 {
+        font-size: 28px;
+        padding-bottom: 20px;
+    }
+
+    .package_instruction h4 {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 640px) {
+
+    .plan ul,
+    .lower_table ul {
+        display: none;
+    }
+
+    td,
+    th {
+        display: table-cell !important;
+
+    }
+
+    td,
+    th {
+        width: 40%;
+
+    }
+
+    td + td,
+    th + th {
+        width: auto;
+    }
+
+
+}
